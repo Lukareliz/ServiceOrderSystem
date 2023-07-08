@@ -1,15 +1,45 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 nav {
     text-align: center;
     padding: 20px 0 20px 0;
-    background: rgb(175,140,255);
-    background: linear-gradient(180deg, rgba(175,140,255,1) 0%, rgba(178,248,255,1) 100%);
+    background-color: #025c66;
 }
 
-.title_nav {
+nav h1{
+    color: white;
+}
+
+#inputs_container {
+    padding: 10px;
+    text-align: center;
+    background-color: #B1F7FF;
+    height: 320px;
+}
+
+#inputs_container h3{
+    margin-top: 30px;
+}
+
+#inputs_container input{
+    margin-top: 5px;
+    width: 20rem;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#inputs_container button{
+    margin-top: 15px;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#inputs_container button:hover{
+    background-color: #025c66;
 }

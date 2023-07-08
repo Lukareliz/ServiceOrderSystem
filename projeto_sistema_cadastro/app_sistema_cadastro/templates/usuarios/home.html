@@ -13,5 +13,17 @@
             <h1>ORDENS DE SERVIÇO</h1>
         </div>
     </nav>
+    <form action="{%url 'listagem_os' %}" method="post">
+        <div id="inputs_container">
+            <h3>Nome</h3>
+            <input type="text" placeholder="Digite o nome do solicitante" name="nome">
+            <h3>Descrição</h3>
+            <input type="text" placeholder="Digite a descrição do serviço" name="descricao">
+            <h3>Responsável</h3>
+            <input type="text" placeholder="Digite o responsável pela execução do serviço" name="responsavel">
+            <div><button>Registrar</button></div>
+        </div>
+    </form>
+   
 </body>
 </html>
