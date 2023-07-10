@@ -5,8 +5,8 @@
 
 nav {
     text-align: center;
-    padding: 20px 0 20px 0;
     background-color: #025c66;
+    padding: 10px 0 10px 0;
 }
 
 nav h1{
@@ -14,10 +14,10 @@ nav h1{
 }
 
 #inputs_container {
-    padding: 10px;
+    padding-top: 100px;
     text-align: center;
     background-color: #B1F7FF;
-    height: 320px;
+    height: 73.5vh;
 }
 
 #inputs_container h3{
@@ -29,6 +29,7 @@ nav h1{
     width: 20rem;
     border-radius: 10px;
     padding: 5px;
+    border: 1px solid;
 }
 
 #inputs_container button{
@@ -37,9 +38,23 @@ nav h1{
     width: 80px;
     height: 30px;
     border-radius: 10px;
+    border-style: none;
     background-color: white;
 }
 
 #inputs_container button:hover{
     background-color: #025c66;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #025c66;
+    height: 27px;
+}
+
+footer h2 {
+    color: white;
+    font-size: 15px;
 }
